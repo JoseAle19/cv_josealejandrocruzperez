@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.avatar__perfil {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    text-align: center;
+    width: 100%;
+}
+
+.domicilio {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 5px 0px white;
+    width: 500px;
+    background-color: #D8E9A8;
+}
+
+.for_aca {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px;
+    background-color: #D8E9A8;
+    box-shadow: 0px 0px 5px 0px white;
+}
+
+
+.domicilio h1 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+
+.domicilio h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+
+.mapa {
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 90%;
+}
+
+.center {
+    justify-items: center;
+    margin: 0px auto;
+}
+
+.hobbies {
+    /* display: flex; */
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+
+
+.cards{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.card--edit{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(83, 81, 81, 0.827);
+}
+
